@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <!-- Top Navigation -->
+        <nav class="top-nav">
+            <a href="#" class="nav-link active-tab" data-target="home-section">Home</a>
+            <a href="#" class="nav-link" data-target="search-section">Search</a>
+            <a href="#" class="nav-link" data-target="library-section">Library</a>
+        </nav>
+
+        <div class="main-content">
+            <!-- Home Section -->
+            <div id="home-section" class="tab-content" style="display: block;">
+                <section>
+            <h2>Recommended Music for Today</h2>
+                <div class="card-container">
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Ordinary</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Attention</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Animals</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <h2>Trending</h2>
+                <div class="card-container">
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>End of Beginning</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Ordinary</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Die With A Smile</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+        </section>
+
+
+        <section>
+            <h2>Love Songs</h2>
+            <div class="card-container">
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Ordinary</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Perfect</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Shape of You</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>I Wanna be Yours</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Bye Bye Bye</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                </div>
+        </section>
+
+        <section>
+            <h2>Workout</h2>
+            <div class="card-container">
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Keep Up</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Fight Back</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>FE!N</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+        </section>
+
+        <section>
+            <h2>Phonk</h2>
+            <div class="card-container">
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>No Batidao</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>From the Start</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+
+                    <div class="music-card">
+                        <img src="https://via.placeholder.com/150" alt="Album Art">
+                        <h3>Montagem Rugada</h3>
+                        <div class="play-button">▶</div>
+                    </div>
+                </div>
+        </section>
+        </div> <!-- End of home-section -->
+
+        <!-- Search Section -->
+        <div id="search-section" class="tab-content" style="display: none;">
+            <section>
+                <h2>Search</h2>
+                <input type="text" id="search-input" placeholder="What do you want to listen to?" class="search-box">
+                <br><br>
+                <div id="search-results" class="card-container">
+                    <!-- Search results injected here -->
+                </div>
+            </section>
+        </div>
+
+        <!-- Library Section -->
+        <div id="library-section" class="tab-content" style="display: none;">
+            <section>
+                <h2>Your Library</h2>
+                <p style="color: #b3b3b3; padding-left: 20px;">Library feature coming soon...</p>
+            </section>
+        </div>
+        </div> <!-- End of main-content -->
+
+        <!-- Music Player Bar -->
+        <div class="music-player">
+            <div class="player-left">
+                <img id="player-thumbnail" src="https://via.placeholder.com/60" alt="Current Song">
+                <div class="song-info">
+                    <h4 id="player-title">Select a song</h4>
+                    <p>Playing local files</p>
+                </div>
+            </div>
+
+            <div class="player-center">
+                <div class="player-controls">
+                    <button id="prev-btn" class="control-btn" title="Previous">⏮</button>
+                    <button id="play-pause-btn" class="control-btn play-btn" title="Play/Pause">▶</button>
+                    <button id="next-btn" class="control-btn" title="Next">⏭</button>
+                </div>
+                <div class="progress-container">
+                    <span id="current-time">0:00</span>
+                    <input type="range" id="progress-bar" value="0" min="0" max="100">
+                    <span id="total-time">0:00</span>
+                </div>
+            </div>
+
+            <div class="player-right">
+                <!-- Volume Control -->
+                <span title="Volume">🔊</span>
+                <input type="range" id="volume-slider" value="100" min="0" max="100">
+            </div>
+
+            <!-- Hidden Audio Element -->
+            <audio id="audio-player" src=""></audio>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
