@@ -1,6 +1,5 @@
-// Function to get thumbnail or fallback
 function getThumb(filename) {
-    return filename ? `thumbnails/${filename}` : 'https://via.placeholder.com/60?text=Music';
+    return filename ? `./thumbnails/${filename}` : 'https://via.placeholder.com/60?text=Music';
 }
 
 // Data for the songs with their specific local thumbnails
